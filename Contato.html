@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>The Next Stop</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="SITE.css">
+    </head>
+    <body>
+        <header>
+            <center><h1>The Next Stop</h1></center>
+        </header>
+        <br>
+        <nav>
+            <ul>
+                <li><a href="Home.html" id="home">Home</a></li>
+                <li><a id="destinos"> Destinos </a>
+                    <ul>
+                        <li><a href="Praias.html" id="praia">Praias </a></li>
+                        <li><a href="Campos.html" id="campo">Campos </a></li>
+                        <li><a href="Urbanos.html" id="urbano">Urbanos</a></li>
+                    </ul>   
+
+                </li>
+                
+                <li><a href="sobrenos.html" id="sobre">Sobre nós</a></li>
+
+                <li><a href="Contato.html" id="contato">Contato</a></li>
+            </ul>
+        </nav>
+        <br>
+        <section>
+            <center>
+            <form name="formulario_de_contato"> 
+                <h3>Entre em contato conosco</h3>
+
+                <p class="nome"> <label for="nome">Nome:  </label> <input type="text" id="nomec"/> </p>
+
+                <p class="fone"> <label for="fone">Fone:</label><input type="text" id="fonec" placeholder="(xx)xx-xx-xx-xx" name="fone" /> </p>
+
+                <p> <label for="email">Email:</label> <input type="email" id="emailc" name="email" /> </p>
+
+                <p> <label for="mensag">Mensagem:</label><textarea placeholder="Deixe sua mensagem aqui"></textarea> </p>
+
+                <p class="submit"> <input type="submit" onclick= "Enviar();" value="Enviar" /> </p>
+            </form> 
+                </center>
+        </section>
+        <br>
+        <footer>
+            &COPY; 2016
+        </footer>   
+    </body>
+</html>
